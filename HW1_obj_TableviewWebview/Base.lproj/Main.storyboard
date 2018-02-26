@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" id="kld-pp-CBF"/>
                     <connections>
                         <outlet property="myTableView" destination="k9Q-qo-vTs" id="bjF-Dy-tnb"/>
-                        <segue destination="xNx-pe-CUG" kind="show" identifier="segue" id="rr5-wu-hRz"/>
+                        <segue destination="xNx-pe-CUG" kind="show" identifier="segue1" id="rr5-wu-hRz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -92,7 +92,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wjl-AF-xC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-324" y="-125"/>
+            <point key="canvasLocation" x="-714" y="-112"/>
         </scene>
     </scenes>
 </document>

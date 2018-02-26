@@ -9,24 +9,14 @@
 #import "MyWebViewController.h"
 
 @interface MyWebViewController ()
-
-
-
 @end
 
 @implementation MyWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     
-    [ self.MyWebView1 loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]] ];
-   //   nowURL = [ myurl objectAtIndex:myindex ] ;
-    
-    //[ self.MyWebView1 loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:nowurl  ]]  ]
-    
-    
-    
-    
+    //1.receiveData will recive data from ViewControll.m throught segue1
+    [ self.MyWebView1 loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.receiveData]] ];
 }
 
 - (void)didReceiveMemoryWarning {

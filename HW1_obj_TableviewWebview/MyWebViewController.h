@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIWebView *MyWebView1;
 
- 
+//receive Data from another web View 
+@property (nonatomic , copy ) NSString *receiveData;
 
 @end
